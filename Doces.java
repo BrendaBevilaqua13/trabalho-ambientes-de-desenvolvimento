@@ -2,8 +2,6 @@ public class Doces extends Produto {
 
     // Atributos
 
-    private String codigo;
-    private String nome;
     private int quantidade;
     private boolean meioAmargo;
     private boolean aoLeite;
