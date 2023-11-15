@@ -2,13 +2,11 @@ public class Doces extends Produto {
 
     // Atributos
 
-    private int quantidade;
     private boolean meioAmargo;
     private boolean aoLeite;
     
     public Doces (int codigo, String nome, int quantidade, boolean meioAmargo, boolean aoLeite){
          super(codigo, nome);
-        this.quantidade = quantidade;
         this.meioAmargo = meioAmargo;
         this.aoLeite = aoLeite;
     }
