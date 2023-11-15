@@ -24,7 +24,7 @@ public class Doces extends Produto {
 
     }
 
-    public double isAoLeite() {
+    public boolean isAoLeite() {
         return aoLeite;
     }
 
