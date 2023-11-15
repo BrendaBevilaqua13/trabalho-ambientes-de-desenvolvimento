@@ -1,16 +1,17 @@
 public class Fruta extends Produto {
     
+    //Atributos
+
     private double peso;
     private boolean madura;
-    private boolean citrica;
+    private String cor;
 
-    public Fruta(int codigo, String nome){
+    public Fruta(int codigo, String nome, double peso, boolean madura, String cor){
         super(codigo, nome);
-
 
         this.peso = peso;
         this.madura = madura;
-        this.citrica = citrica;
+        this.cor = cor;
     }
 
     public double getPeso() {
@@ -28,4 +29,16 @@ public class Fruta extends Produto {
     public void setMadura(boolean madura) {
         this.madura = madura;
     }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+
+    //Metodos
+
+    
+}
 }
