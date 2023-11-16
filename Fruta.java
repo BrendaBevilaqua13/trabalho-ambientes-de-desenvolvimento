@@ -36,9 +36,6 @@ public class Fruta extends Produto {
 
     public void setCor(String cor) {
         this.cor = cor;
-
-    //Metodos
-
     
 }
 }
