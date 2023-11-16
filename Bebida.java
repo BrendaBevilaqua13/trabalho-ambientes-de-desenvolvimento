@@ -29,4 +29,13 @@ public class Bebida extends Produto {
     public double getValorUnitario() {
         return super.getValorUnitario();
     }
+
+    // metodo 
+    public void detalhe(Bebida bebida) {
+        if (bebida.isGaseificada()){
+            System.out.println("A bebida que definiu contém gás, cuidado com exageros!!!");
+        } else{
+            System.out.println("A bebida que definiu não contém gás, pode aproveitar!!!");
+        }
+    }
 }
