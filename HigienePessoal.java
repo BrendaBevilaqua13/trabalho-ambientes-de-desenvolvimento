@@ -1,3 +1,4 @@
+// NAYARA AMANDA
 public class HigienePessoal extends Produto {
     private TipoHigienePessoal tipo;
     private boolean rolon;
