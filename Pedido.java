@@ -25,7 +25,7 @@ public class Pedido {
         this.pago = false;
     }
 
-    // Adiciona produtos ao pedido
+     // Chamando o metodo getValorUnitario da classe produto (Adicionando ao pedido)
     public void adicionarProduto(Produto produto, int quantidade) {
         for (int i = 0; i < quantidade; i++) {
             this.produtos.add(produto);
