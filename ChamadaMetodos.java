@@ -12,8 +12,7 @@ public class ChamadaMetodos {
         //Nayara Amanda
         // chamada do metodo isAoLeite e isMeioAmargo
         Doces chocolate = new Doces(2, "KitKat", 10, false, true);
-        System.out.println(chocolate.getNome());
-        System.out.println("É ao leite: " + chocolate.isAoLeite());
-        System.out.println("É meio amargo: " + chocolate.isMeioAmargo());
+        chocolate.descricao();
+       
     }
 }
