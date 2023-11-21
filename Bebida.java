@@ -31,6 +31,7 @@ public class Bebida extends Produto {
     }
 
     // metodo 
+    // criado pela Brenda Beviláqua
     public void detalhe(Bebida bebida) {
         if (bebida.isGaseificada()){
             System.out.println("A bebida que definiu contém gás, cuidado com exageros!!!");
