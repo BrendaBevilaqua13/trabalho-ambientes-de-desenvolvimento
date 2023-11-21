@@ -29,6 +29,12 @@ public class Doces extends Produto {
     public void setAoLeite(boolean aoLeite) {
         this.aoLeite = aoLeite;
     }
+    // NAYARA AMANDA 
+    public void descricao () {
+        System.out.println(getNome());
+        System.out.println("É ao leite: " + aoLeite);
+        System.out.println("É meio amargo: " + meioAmargo);
+    }
 
 }
 
